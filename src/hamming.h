@@ -29,7 +29,7 @@ BitStream* hamming_decode(HammingFrame *frame);
 void hamming_fix_errors(HammingFrame *frame);
 
 /// Free memory allocated for a hamming frame
-void hamming_destroy();
+void hamming_destroy(HammingFrame *frame);
 
 /// Tests all hamming functions
 void hamming_test();
